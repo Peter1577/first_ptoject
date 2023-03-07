@@ -1,0 +1,264 @@
+  <!-- second back ground starts -->
+    <h1 class="text-center heading1">Our approach</h1>
+    <p class="text-center lead text-body big">We are a group of doctoral-level psychologists and psychiatrists who <br> provide quality mental health care. As a mental health collective, we  <br> assist members by providing therapy, medication management, <br> coaching, and more. Let us help you connect with one of our doctors who <br> meets your needs and is available to see you, online or in-person.</p>
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-5 col-sm-12"></div>
+            <div class="col-lg-3 col-sm-12"><button type="button" class="btn btn-success btn-lg ">LEARN MORE</button></div>
+            <div class="col-lg-4 col-sm-12"></div>
+            
+        </div>
+    </div><br><br>
+    <!-- second background ends -->
+    <!-- third background starts -->
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 couns"></div>
+            <div class="col-lg-6">
+                <h1 class="heading1 space">Providing you with <br> a safe space to <br> relax</h1>
+                <p class="text-start lead text-body big space1">All your appointments will take place in our <br> soothing office environment with fully <br> private rooms, complimentary tea and <br> water, and individualized care.</p>
+            </div>
+        </div>
+    </div>
+    <!-- third background ends -->
+
+    <!-- fourth background starts -->
+    <div class="contaniner break">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6 ">
+                <h1 class="heading1 space2">In-person and <br> remote options</h1>
+                <p class="text-start lead text-body big space3">Our office is conveniently located in <br> Hyderabad. Can’t make it into the <br> office? No worries – we’ve got you <br> covered with teletherapy. </p>
+            </div>
+            <div class="col-lg-6 col-sm-12 office"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.88005349346!2d78.26795694292137!3d17.412627419601563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1677553090024!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+    <!-- fourth background ends -->
+    <!-- fifth background starts -->
+    <h1 class=" text-white  heading1 space2" align="center">Our services</h1>
+    <div class="container-fluid bg1">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12"><img src="images/chair.png"  class="img1" alt=""><p align="center" class="text-white T">Therapy</p></div>
+            <div class="col-lg-4 col-sm-12"><img src="images/bottle.png"  class="img1" alt=""><p align="center" class="text-white P">Psychiatry</p></div>
+            <div class="col-lg-4 col-sm-12"><img src="images/coaching.png"  class="img1" alt=""><p align="center" class="text-white C">Coaching</p></div>
+        </div> <br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-3"><button type="button" class="btn btn-success btn-lg ">LEARN MORE</button></div>
+                <div class="col-4"></div>
+                
+            </div>
+        </div><br><br>
+        <!-- fifth background starts -->
+    </div>
+    <div class="container-fluid">
+        <h1 class=" text-dark  heading1 space2" align="center">Meet our team</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-4">
+                <img src="images/doc1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dr. Emilton</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/doc2.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dr.Kaya</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="images/doc3.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dr.Michael</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+<!-- fifth background ends -->
+
+
+
+
+css properties
+
+.nav-bar{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: inline-flexbox ;
+    position:fixed;
+    top: 0;
+}
+
+.img{
+    height: 50px;
+    padding-bottom: 10px;
+}
+.bg{
+    background:rgba(0, 0, 0, 0.4)url(images/background1.jpg);
+    background-blend-mode: darken;
+    height: 115vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.menu-right{
+    background-color: rgba(19, 18, 18, 0.445); 
+    text-align:right;
+    width: 100%;
+    height: fit-content;
+}
+/* logo  */
+.nav-bar div h4{
+    display: inline-flexbox;
+    margin: 20px;
+    margin-left: 0;
+    padding-left: 30px;
+    height:100px;
+    font-weight: normal;
+    float: left;
+    font-size:xx-large
+}
+ul li{
+    display:inline-flex;
+    margin:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+span{
+    margin: 0 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display:none;
+}
+.max{
+    padding: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.h{
+    font-family: cursive;
+}
+/* responsive setup for all screen types */
+@media only screen and (max-width:300px){
+
+    .main{
+        display: flex;
+        font-size: small;
+        padding:0;
+    }
+}
+ @media only screen and (max-width:830px){
+
+    .nav-bar{
+        font-family: 'Times New Roman', Times, serif;
+        width: 100%;
+        display: inline-flexbox ;
+        position:fixed;
+        top: 0;
+    }
+
+    span{
+        display: block;
+        font-size: 50px;
+    
+    }
+    .menu-right{
+        display: block;
+        background-color:rgb(0, 0, 0);
+        text-align:right;
+    }
+    ul li{
+        background-color: #666a7757;
+        border-radius: 30px;
+        display:block;
+        padding:20px;
+        font-size: larger;
+        font-weight: normal;
+        text-align: center;
+    }
+    ul{
+        display: none;
+        }
+    a{
+        font-size: 30px;
+    }
+    a:hover,a:active{
+        background:none;
+        color: #0082e6;
+    }
+    .nav-bar div h4{
+        margin: 0px;
+        position: fixed;
+        top:10px;
+        display:flex;
+        font-size:40px;
+    }
+
+    .bg1{
+        background: grey;
+        background-size:cover;
+        background-position:center;
+        height: 190vh;
+        width: 200%;
+    }
+}
+
+.heading1{
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+}
+p.big {
+    line-height: 1.8;
+  }
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+.couns{
+    background-image: url(images/counselling.jpg);
+    width: 50%;
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+.space{
+    font-size: 50px;
+    margin-left: 25px;
+}
+.space1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.space2,.space3{
+    margin-left: 110px;
+}
+.bg1{
+    background: grey;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+.T,.P,.C{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.img1{
+    width: 100%;
+}
+.office{
+    margin-right: 0;
+    width: 10%;
+    height: 100vh;
+}

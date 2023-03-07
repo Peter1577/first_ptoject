@@ -1,0 +1,538 @@
+.bg{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+}
+
+.therapy{
+    font-size: 30px;
+}
+.toggler{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+.background1{
+    background:rgb(0,0,0,0.345) url(images/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.col1,.col2{
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+}
+.col3 {
+    text-align: start;
+    padding-left: 90px;
+}
+
+.headtext{
+    text-align: center;
+    font-family: 'Playfair Display';
+    padding-top: 10%;
+        
+}
+.butn{
+    text-align: center;
+}
+.couns{
+    width: 90%;
+    height: 100vh;
+    margin-left: 20px;
+    object-fit: cover;
+}
+.office{
+    width: 90%;
+    height: 50vh;
+}
+.headtext1{
+    text-align: start;
+    font-family: 'Playfair Display';
+    padding-top: 10%;
+    margin-left: 50px;
+}
+
+.para2{
+    margin-left: 50px;
+}
+
+.bg5{
+    background-color: rgb(20, 39, 19);
+    width:100%;
+    padding: 0;
+}
+.para3{
+    font-family: 'Playfair Display';
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+}
+
+.image{
+    width: 95%;
+}
+.imgcol{
+    padding: 0;
+}
+.image1{
+    width: 90%;
+    padding:3px;
+}
+.headtext2,.butn{
+    font-family: 'Playfair Display';   
+}
+.bg7{
+    background-color: rgba(15, 15, 15, 0.473);
+}
+.link  {
+    text-decoration: none;
+    color: black;
+}
+.link2{
+    color: rgb(240, 101, 37);
+}
+.link3{
+    color: grey;
+}
+
+/* about */
+.aboutbackground1{
+    background:rgb(0,0,0,0.345) url(images/care.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.aboutpara1{
+    font-size: 28px;
+}
+
+.formbg1{
+    background-color: rgb(20, 39, 19);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+
+}
+.padding{
+    padding-left:40px;
+}
+/* about */
+
+.imageteam{
+    width: 60%;
+    padding: 3px;
+}
+
+.teambackground{
+    background:rgba(0, 0, 0, 0.527) url(images/reception.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.teamheadtext.servicehead{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Playfair Display';
+}
+.teamheadtext1{
+    font-family:'Playfair Display';
+}
+.imageteam{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.imageteam{
+    width: 43%;
+    padding: 3px;
+}
+.imageteam1{
+    padding-left: 0;
+    margin-right: 10px;
+}
+.teamcol{
+    margin-top: 10px;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+.teamcol1{
+    margin-top: 10px;
+    padding-left: 120px;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+.servicebg{
+    background:rgba(0, 0, 0, 0.41) url(images/coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+.servicehead{
+    padding: 300px;
+    font-family: 'Playfair Display';
+}
+.servicehead2{
+    font-family: 'Playfair Display'; 
+    margin-top: 50px;  
+}
+.servicehead3{
+    background-color:beige;
+    height: 50vh;
+    font-family: 'Playfair Display'; 
+    margin-top: 70px;  
+}
+.head3{
+    margin-top: 100px;
+}
+
+
+@media only screen and  (max-width:720px) {
+
+    .bg{
+        background-color: rgba(0, 0, 0, 0.678);
+        position: fixed;
+        width: 100%;
+    }
+    .col3 {
+        text-align: start;
+        padding-left:20px;
+    }
+    .headtext{
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-size: 30px;
+        padding-top: 10%;
+        margin: 10px;
+            
+    }
+    .para1{
+        margin: 10px; 
+    }
+    
+    .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+      .aboutpara1{
+        font-size: 20px;
+    }
+      
+    .aboutimg1,.aboutimg2{
+        width: 90%;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .formbg1{
+        background-color: rgb(20, 39, 19);
+        background-size: cover;
+        width: 100%;
+        height: 120%;
+    
+    }
+
+    .servicehead{
+        margin-top: 300px;
+        padding: 0;
+    }
+    
+}
+
+
+
+
+.contactbg{
+    background-image: url(images/mountain.jpg);
+    background-size: cover;
+    height: 115vh;
+}
+
+.teambackground{
+    background:rgba(0, 0, 0, 0.527) url(images/reception.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+.teamheadtext{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Playfair Display';
+}
+.teamheadtext1{
+    font-family:'Playfair Display';
+}
+.imageteam{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.imageteam{
+    width: 43%;
+    padding: 3px;
+}
+.imageteam1{
+    padding-left: 0;
+    margin-right: 10px;
+}
+.teamcol{
+    margin-top: 10px;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+.teamcol1{
+    margin-top: 10px;
+    padding-left: 120px;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+
+
+@media only screen and  (max-width:990px){
+    .headtext{
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-size: 30px;
+        padding-top: 3%;
+        margin: 10px;
+            
+    }
+    .map{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        margin: 0;
+        }
+
+        .para2,.headtext1{
+            margin-left: 25px;
+        }
+        .image,.image1{
+            max-width: 100%;
+        }
+        .imageteam{
+            width: 60%;
+            padding: 3px;
+            margin-left:25px;
+        }
+
+        .teambackground{
+            background-size: cover;
+            width: 110%;
+        }
+       
+        .imageteam,.imageteam1{
+            text-align: center;
+            padding-left: 20%;
+            margin-top: 100px;
+        }
+        
+        .teamcol{
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 20px;
+            padding: 10px;
+            padding-left: 80px;
+        }
+        .teamcol1{
+            text-align: center;
+            margin-top: 0px;
+            margin-left: 0px;
+            padding: 10px;
+            padding-left: 80px;
+        }
+        .parahead{
+            text-align: center;
+        }
+        .reverse{
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 0;
+            margin: 0;
+    
+        }
+
+        .servicebg{
+            height: 50vh;
+        }
+        
+}
+
+@media only screen and  (max-width:500px){
+
+    .teamcontainer{
+        margin-top:150px;
+    }
+    .teambackground{
+        background-size: cover;
+        width: 120%;
+    }
+    .imageteam{
+        width: 80%;
+        padding: 3px;
+        margin-left: 70px;
+    }
+    .woman{
+        margin: 10px;
+        margin-top: 60px;
+        max-width: 20%;
+        height: auto;
+
+    }
+    .box1{
+        width: 90%; 
+        margin-left: 10px;
+     }
+     
+    
+    
+}
+
+@media only screen and  (max-width:550px){
+.servicebg{
+    height: 70vh;
+}
+.next{
+    margin-left: 260px;
+ }
+
+}
+@media only screen and  (max-width:770px){
+    .servicebg{
+        height: 70vh;
+    }
+    .servicehead{
+        text-align: center;
+        margin-top: 400px;
+        padding: 0;
+    }
+    
+}
+@media only screen and  (max-width:825px){
+    .servicebg{
+        height: 70vh;
+    }
+    .servicehead{
+        text-align: center;
+        margin-top: 400px;
+        padding: 0;
+    }
+    
+}
+@media only screen and  (max-width:300px){
+
+    .imageteam,.imageteam1{
+        text-align: center;
+        padding-left: 15%;
+        margin-top: 100px;
+    }
+    .imageteam{
+        width: 100%;
+        padding: 3px;
+        margin-left: 70px;
+    }
+    .teambackground{
+        background-size: cover;
+        width: 150%;
+    }
+    .teamcol{
+        margin-top: 50px;
+        margin-left: 45px;
+    }
+    .teamcol1{
+        margin-top: 0px;
+        margin-left: 0;
+    }
+}
+@media only screen and  (max-width:380px){
+    .servicehead{
+        text-align: center;
+        margin-top: 200px;
+        padding: 0;
+    }    
+    .next{
+        margin-left: 200px;
+     }
+        .box1{
+            width: 90%; 
+            margin-left: 10px;
+        }
+        .bookcontainer{
+            margin-top: 50px;
+        }
+}  
+
+@media only screen  and (max-width:420px){
+
+    .next{
+        margin-left: 220px;
+     }
+     .headtextbook{
+        margin-top: 100px;
+    }
+    
+}
+
+.bookcontainer{
+    margin-top: 0px;
+}
+
+
+.box1{
+    border: 2px solid black;
+}
+.subbox1{
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+.prenex{
+    margin-top: 10px;
+}
+.box2{
+    border:2px solid black;
+    
+}
+.bookbg{
+    background:rgba(0, 0, 0, 0.651) url(images/forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+}
+
+.blog4{
+    width: 70%;
+    text-align:center;
+}
